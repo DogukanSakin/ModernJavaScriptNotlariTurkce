@@ -1,1 +1,1 @@
-# ModernJavaScriptNotlariTurkce
+# Modern JavaScript Notları Türkçe
