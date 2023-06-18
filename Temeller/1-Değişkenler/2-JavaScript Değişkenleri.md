@@ -61,5 +61,11 @@ var y = 10;
 var y = 20; // No error
 ```
 
+## Ne Zaman Var, Let, Const Kullanmalıyız?
+
+- Değerin değiştirilmemesi gerekiyorsa her zaman const kullanılmalı.
+- Tür değiştirilmeyecekse her zaman const kullanılmalı. (Array'ler ve Object'ler)
+- let'i yalnızca const kullanamıyorsak kullanmalıyız.
+- Var'ı yalnızca eski tarayıcıları desteklemek ZORUNLU ise kullanmalıyız.
 
 

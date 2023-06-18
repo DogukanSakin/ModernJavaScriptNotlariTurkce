@@ -2,7 +2,7 @@
 
 JavaScript'te clean code (temiz kod) yazmak için değişkenlerin doğru kullanımı ve isimlendirilmesi önemlidir. Programlama dilinden bağımsız olarak şu söylenebilir ki sadece değişken isimlerine bakarak kdou geliştiren kişinin seviyesini ölçebilirsiniz. :)
 
-- Açık ve Anlaşılır İsimler: Değişkenlerin isimleri, neyi temsil ettiklerini anlamak için açık ve anlaşılır olmalıdır. İsimlendirme yaparken, değişkenin amacını, içeriğini veya kullanımını yansıtan anlamlı isimler seçilmelidir. Bu, kodun okunabilirliğini artırır.
+Açık ve Anlaşılır İsimler: Değişkenlerin isimleri, neyi temsil ettiklerini anlamak için açık ve anlaşılır olmalıdır. İsimlendirme yaparken, değişkenin amacını, içeriğini veya kullanımını yansıtan anlamlı isimler seçilmelidir. Bu, kodun okunabilirliğini artırır.
 
 Kötü:
 
@@ -17,7 +17,7 @@ let s = calculateSum(); // Fonksiyonun amacı belirsiz
 let numberOfStudents = 5; // Öğrenci sayısını temsil ediyor
 let totalSum = calculateSum(); // Toplamı hesaplayan bir fonksiyonu temsil ediyor
 ```
-- Kısa ve Öz: İsimler kısa ve öz olmalıdır, gereksiz uzunluklardan kaçınılmalıdır. Ancak, anlamsız veya anlaşılmaz kısaltmalar yerine açıklayıcı kısaltmalar kullanılmalıdır.
+Kısa ve Öz: İsimler kısa ve öz olmalıdır, gereksiz uzunluklardan kaçınılmalıdır. Ancak, anlamsız veya anlaşılmaz kısaltmalar yerine açıklayıcı kısaltmalar kullanılmalıdır.
 
 Kötü:
 
@@ -33,7 +33,7 @@ let stuCount = 5; // Öğrenci sayısını temsil ediyor
 let sum = calculateSum(); // Toplamı hesaplayan bir fonksiyonu temsil ediyor
 ```
 
-- Dil Kurallarına Uygunluk: JavaScript dil kurallarına uygun değişken isimleri kullanılmalıdır. Değişken isimleri harfle (A-Z veya a-z), alt çizgi (_) veya rakamla (0-9) başlayabilir, boşluk veya özel karakterler içeremez. Aynı zamanda, anahtar kelimelerle (if, for, while, vb.) çakışmayan isimler tercih edilmelidir.
+Dil Kurallarına Uygunluk: JavaScript dil kurallarına uygun değişken isimleri kullanılmalıdır. Değişken isimleri harfle (A-Z veya a-z), alt çizgi (_) veya rakamla (0-9) başlayabilir, boşluk veya özel karakterler içeremez. Aynı zamanda, anahtar kelimelerle (if, for, while, vb.) çakışmayan isimler tercih edilmelidir.
 
 Kötü:
 
@@ -51,7 +51,7 @@ let myVariable = "Hello"; // Geçerli bir isim
 let isAvailable = true; // Geçerli bir isim
 ```
 
-- Tek Bir Anlamı Olan İsimler: Değişken isimleri, tek bir anlama sahip olmalıdır. Birden fazla anlam taşıyan veya birden fazla amaca hizmet eden değişken isimlerinden kaçınılmalıdır. Böylece, kodun anlaşılması ve sürdürülebilirliği kolaylaşır.
+Tek Bir Anlamı Olan İsimler: Değişken isimleri, tek bir anlama sahip olmalıdır. Birden fazla anlam taşıyan veya birden fazla amaca hizmet eden değişken isimlerinden kaçınılmalıdır. Böylece, kodun anlaşılması ve sürdürülebilirliği kolaylaşır.
 
 Kötü:
 
@@ -67,7 +67,7 @@ let studentName = "John"; // Öğrenci adını temsil ediyor
 let processedData = process(); // İşlenmiş veriyi temsil ediyor
 ```
 
-- Tek Harfli Değişkenlerden Kaçının: Tek harfli değişken isimleri genellikle anlaşılmaz olabilir ve kodun okunurluğunu düşürebilir. Tek harfli isimler yalnızca belirli durumlarda (genellikle döngülerde veya matematiksel hesaplamalarda) tercih edilebilir.
+Tek Harfli Değişkenlerden Kaçının: Tek harfli değişken isimleri genellikle anlaşılmaz olabilir ve kodun okunurluğunu düşürebilir. Tek harfli isimler yalnızca belirli durumlarda (genellikle döngülerde veya matematiksel hesaplamalarda) tercih edilebilir.
 
 Kötü:
 
@@ -84,7 +84,7 @@ let value = 5; // Anlamlı bir isim
 let calculatedValue = calculate(); // Anlamlı bir fonksiyon adı
 ```
 
-- const, değişmeyen değerlere anlamlı isimler vererek kodun okunurluğunu artırır. Diğer programcılar veya sizin kendiniz kodu okuduğunuzda, const ile tanımlanan bir değişkenin sabit olduğunu ve değerinin değiştirilemeyeceğini anlarsınız.
+const, değişmeyen değerlere anlamlı isimler vererek kodun okunurluğunu artırır. Diğer programcılar veya sizin kendiniz kodu okuduğunuzda, const ile tanımlanan bir değişkenin sabit olduğunu ve değerinin değiştirilemeyeceğini anlarsınız.
 
 ```
 const MAX_ATTEMPTS = 3;
