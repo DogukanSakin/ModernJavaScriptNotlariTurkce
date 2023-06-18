@@ -1,14 +1,3 @@
-# Hoşgeldiniz! 👾
-
-Selam. Bu kaynağı oluştururken temel amacım bir bilgiye ihtiyaç duyduğumda dönüp bakabileceğim bir bilgi bütününü oluşturabilmek. Elimden geldiğince Modern JavaScript'i en başından konu başlıklarına ayırıp sorgulamak isteyenler için dilin mantığına yönelik araştırdığım bilgilerin bütününü de bu kaynakta paylaşıyor olacağım. Buradan elde edeceğiniz bilgiler çeşitli kaynaklardan taranarak bulunmuştur. Yani tek bir kaynağın Türkçe çevirisi değildir. Ağırlıklı olarak faydalandığım kaynakları aşağıya ekledim. Ayrıca konu olarak bazı kısımları özet şekilde anlatırken bazı kısımları detaylandırdım. Yani her konunun inanılmaz detaylı bilgisini bulamayabilirsiniz. Ancak benim gibi bir iş yaptıktan sonra o işin arkaplanını da merak ediyorsanız bu kaynakta çeşitli sorulara cevap bulabilirsiniz. Umarım sizlere de bir faydası dokunur. Destekleriniz için şimdiden teşekkür ederim. :)
-
-Kaynağı hazırlarken ağırlıklı olarak bu kaynakları referans aldım:
-
-- javascript.info 
-- w3Schools
-
-
-
 ## Neden JavaScript?
 
 JavaScript başlangıçta web sayfalarını "canlı" hale getirmek için oluşturuldu. Çıkış motivasyonu bu olsa da şuan günümüzde en popüler programlama dili niteliğini taşıyor. Sadece JavaScript ile web, mobil, backend ve masaüstü uygulamaları geliştirebilirsiniz. Kullanım alanlarının fazlalığı beraberinde dilin popülerliğini ve dile ait topluluğun büyümesine yardımcı oluyor.

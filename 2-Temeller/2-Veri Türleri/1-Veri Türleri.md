@@ -15,7 +15,7 @@ Bu başlık altında basitçe JavaScript'in hangi veri türlerine sahip olduğun
 
 Bir değişkenin veri türünü öğrenmek için `typeof` anahtar kelimesini kullanabilirsiniz. Örneğin:
 
-```
+```js
 typeof undefined // "undefined"
 
 typeof 0 // "number"
@@ -43,14 +43,14 @@ JavaScript'te null ve undefined arasında bazı farklar vardır:
 
 - Tanımlanmamış Değerler: undefined, bir değişkenin değerinin atanmadığı veya tanımlanmadığı anlamına gelir. Bir değişkeni tanımladığınızda, ancak değer atamadığınızda varsayılan olarak undefined değeri alır. Örneğin:
 
-```
+```js
 let x;
 console.log(x); // Çıktı: undefined
 ```
 
 - Eksik Parametreler: Fonksiyonlara parametre olarak geçirilmemiş argümanlar, fonksiyon içinde undefined olarak değerlendirilir. Örneğin:
 
-```
+```js
 function foo(x) {
   console.log(x); // Çıktı: undefined
 }
@@ -60,21 +60,21 @@ foo();
 
 - Belirli Olmayan Bir Durumu Temsil Etme: null, bir değişkenin bilinçli olarak bir değere sahip olmadığını veya geçerli olmayan bir değeri temsil ettiğini gösterir. Örneğin:
 
-```
+```js
 let y = null;
 console.log(y); // Çıktı: null
 ```
 
 - Tür: Hem null hem de undefined, JavaScript'te farklı türlerde değerlendirilir. null, özel bir değerdir ve object türündedir. undefined ise tür olarak undefined'dır.
 
-```
+```js
 console.log(typeof null); // Çıktı: object
 console.log(typeof undefined); // Çıktı: undefined
 ```
 
 - Atama: null, bir değişkene bilinçli olarak atanırken, undefined genellikle bir değişkenin varsayılan değeri olarak kullanılır veya değişkene atanmadığı durumda varsayılan değer olarak kabul edilir.
 
-```
+```js
 let z = null;
 console.log(z); // Çıktı: null
 

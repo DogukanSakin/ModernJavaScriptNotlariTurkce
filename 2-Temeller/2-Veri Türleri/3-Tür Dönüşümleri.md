@@ -6,7 +6,7 @@ Bazen elimizdeki değişkenin türünü işlem yapabilmemiz için değiştirmek 
 
 String() fonksiyonu ile değişkenin değeri string türüne dönüştürülebilir.
 
-```
+```js
 let value = true;
 alert(typeof value); // boolean
 
@@ -18,7 +18,7 @@ alert(typeof value); // string
 
 Number() fonksiyonu ile değişkenin değeri number türüne dönüştürülebilir.
 
-```
+```js
 let str = "123";
 alert(typeof str); // string
 
@@ -28,7 +28,7 @@ alert(typeof num); // number
 
 Eğer gelen değer number türüne dönüştürülemezse NaN (Not a Number) sonucu döner.
 
-```
+```js
 let age = Number("an arbitrary string instead of a number");
 
 alert(age); // NaN, conversion failed
@@ -36,7 +36,7 @@ alert(age); // NaN, conversion failed
 
 Boolean'lar 0 ve 1 değerlerine dönüştürülebilir.
 
-```
+```js
 alert( Number(true) ); // 1
 alert( Number(false) ); // 0
 ```
@@ -52,18 +52,17 @@ Number(false) -> 0
 
 Boolean() fonksiyonu ile değişkenin değeri boolean türüne dönüştürülebilir.
 
-```
+```js
 alert( Boolean(1) ); // true
 alert( Boolean(0) ); // false
 ```
 
 Boolean dönüşümünde 0, null, undefined, uzunluğu sıfır olan string, NaN değerleri false olarak dönüşür. Diğer tüm değerler true olarak dönüşür.
 
-```
+```js
 alert( Boolean("0") ); // true
 alert( Boolean(" ") ); // true çünkü boşlukta sayılır.
 alert( Boolean("") );  // false, uzunluğu 0
 ```
 
 
-```

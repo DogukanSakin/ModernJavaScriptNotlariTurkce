@@ -16,13 +16,13 @@ let anahtar kelimesi ile tanımlanan değişkenler, blok kapsamlıdır. Yani, de
 
 Örnek tanımlama:
 
-```
+```js
 let count = 10;
 ```
 
 Bunu var ile yazarsak:
 
-```
+```js
 var count = 10;
 ```
 
@@ -30,7 +30,7 @@ var count = 10;
 
 - Kapsam: let ile tanımlanan değişkenler, blok kapsamlıdır. Yani, değişken sadece tanımlandığı blok içinde erişilebilir ve dışarıda kullanılamaz. Öte yandan, var ile tanımlanan değişkenler fonksiyon kapsamlıdır. Yani, değişken tanımlandığı fonksiyon içinde erişilebilir ve fonksiyon dışında da erişilebilir.
 
-```
+```js
   {
     let x = 10;
     var y = 20;
@@ -43,7 +43,7 @@ var count = 10;
 
 - Değişken Hissesi (Hoisting): let ile tanımlanan değişkenler, tanımlandıkları yerdeki kapsamın başına kadar hissedilmezler. Bu, değişkenin tanımlanmasından önce erişilmeye çalışıldığında hata alınmasını sağlar. Öte yandan, var ile tanımlanan değişkenler, değişkenin tanımlanmasından önce bile erişilebilirler. Bu durum, değişkenin yukarı kaldırılması anlamına gelir (hoisting).
 
-```
+```js
 console.log(x); // undefined
 console.log(y); // ReferenceError: y is not defined
 
@@ -53,7 +53,7 @@ let y = 20;
 
 - İkili Bildirimsel Kısıtlama (Duplicate Declaration Restriction): let ile aynı isimle birden fazla değişken tanımlamak aynı kapsam içinde hata oluşturur. Yani, aynı blok içinde aynı isme sahip birden fazla let değişkeni tanımlanamaz. Öte yandan, var ile aynı isimle birden fazla değişken tanımlamak mümkündür, ancak bu durum genellikle hatalara neden olabilir.
 
-```
+```js
 let x = 10;
 let x = 20; // SyntaxError: Identifier 'x' has already been declared
 

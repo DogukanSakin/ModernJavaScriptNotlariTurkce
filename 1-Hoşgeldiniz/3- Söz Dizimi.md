@@ -4,13 +4,13 @@ Belki daha önce bir programlama diliyle ilgilendiyseniz kod bloklarının sonun
 
 Ancak okunabilirlik açısından şunu incelediğimizde şu kullanım yerine:
 
-```
+```js
 alert('Hello'); alert('World');
 ```
 
 Bu kullanımın daha okunabilir olduğunu görmek mümkün:
 
-```
+```js
 alert('Hello');
 alert('World');
 ```
@@ -19,7 +19,7 @@ alert('World');
 
 Her ne kadar yukarıda noktalı virgülün kullanımının zorunlu olmadığını belirtsemde bazı durumlarda gerçekten zorunlu olabiliyor. Örneğin:
 
-```
+```js
 alert("Hello");
 
 [1, 2].forEach(alert);
@@ -27,7 +27,7 @@ alert("Hello");
 
 Şöyle bir kod önce Hello ardından sırasıyla 1 ve 2'yi gösterir. Ancak şunu inceleyelim:
 
-```
+```js
 alert("Hello")
 
 [1, 2].forEach(alert);
@@ -35,7 +35,7 @@ alert("Hello")
 
 Burada tek fark alert'te noktalı virgül olmaması. JavaScript Bu kodu şu hale getirerek yorumlar:
 
-```
+```js
 alert("Hello")[1, 2].forEach(alert);
 ```
 Bu ise beklediğimiz sonucu bize göstermez. alert("Hello")[1, 2] sözdizimi alert'ten dönen değerleri okumaya çalışmaktır. Ancak alert bir değer döndürmez. Dolayısıyla kod hata verir.

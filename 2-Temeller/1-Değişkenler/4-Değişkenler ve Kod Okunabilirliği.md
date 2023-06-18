@@ -6,14 +6,14 @@ Açık ve Anlaşılır İsimler: Değişkenlerin isimleri, neyi temsil ettikleri
 
 Kötü:
 
-```
+```js
 let a = 5; // Ne anlama geldiği belirsiz
 let s = calculateSum(); // Fonksiyonun amacı belirsiz
 ```
 
 İyi:
 
-```
+```js
 let numberOfStudents = 5; // Öğrenci sayısını temsil ediyor
 let totalSum = calculateSum(); // Toplamı hesaplayan bir fonksiyonu temsil ediyor
 ```
@@ -21,14 +21,14 @@ Kısa ve Öz: İsimler kısa ve öz olmalıdır, gereksiz uzunluklardan kaçın�
 
 Kötü:
 
-```
+```js
 let numStu = 5; // Anlamı belirsiz kısaltma
 let calcSum = calculateSum(); // Fonksiyonun amacı belirsiz kısaltma
 ```
 
 İyi:
 
-```
+```js
 let stuCount = 5; // Öğrenci sayısını temsil ediyor
 let sum = calculateSum(); // Toplamı hesaplayan bir fonksiyonu temsil ediyor
 ```
@@ -37,7 +37,7 @@ Dil Kurallarına Uygunluk: JavaScript dil kurallarına uygun değişken isimleri
 
 Kötü:
 
-```
+```js
 let 1stNumber = 5; // Rakamla başlayan geçersiz bir isim
 let my variable = "Hello"; // Boşluk içeren geçersiz bir isim
 let if = true; // Anahtar kelime ile çakışan geçersiz bir isim
@@ -45,7 +45,7 @@ let if = true; // Anahtar kelime ile çakışan geçersiz bir isim
 
 İyi:
 
-```
+```js
 let firstNumber = 5; // Geçerli bir isim
 let myVariable = "Hello"; // Geçerli bir isim
 let isAvailable = true; // Geçerli bir isim
@@ -55,14 +55,14 @@ Tek Bir Anlamı Olan İsimler: Değişken isimleri, tek bir anlama sahip olmalı
 
 Kötü:
 
-```
+```js
 let data = "John"; // Data neyi temsil ediyor? Öğrenci adı mı, kullanıcı adı mı?
 let result = process(); // Result, sonuç mu, hata mesajı mı?
 ```
 
 İyi:
 
-```
+```js
 let studentName = "John"; // Öğrenci adını temsil ediyor
 let processedData = process(); // İşlenmiş veriyi temsil ediyor
 ```
@@ -71,7 +71,7 @@ Tek Harfli Değişkenlerden Kaçının: Tek harfli değişken isimleri genellikl
 
 Kötü:
 
-```
+```js
 let x = 5; // Anlamı belirsiz tek harfli isim
 let y = calculateValue(); // Anlamı belirsiz tek harfli fonksiyon adı
 
@@ -79,14 +79,14 @@ let y = calculateValue(); // Anlamı belirsiz tek harfli fonksiyon adı
 
 İyi:
 
-```
+```js
 let value = 5; // Anlamlı bir isim
 let calculatedValue = calculate(); // Anlamlı bir fonksiyon adı
 ```
 
 const, değişmeyen değerlere anlamlı isimler vererek kodun okunurluğunu artırır. Diğer programcılar veya sizin kendiniz kodu okuduğunuzda, const ile tanımlanan bir değişkenin sabit olduğunu ve değerinin değiştirilemeyeceğini anlarsınız.
 
-```
+```js
 const MAX_ATTEMPTS = 3;
 const DEFAULT_USERNAME = "guest";
 ```
