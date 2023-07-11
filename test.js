@@ -1,18 +1,15 @@
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
+let user = {
+    name: "John",
+    sizes: {
+      height: 182,
+      width: 50
+    }
   };
-
-  function multiplyNumeric(obj){
-        for(const value in obj){
-            if(typeof obj[value] === 'number'){
-                obj[value] *= 2;
-            }
-        }
-
-  }
-
-  multiplyNumeric(menu);
-
-  console.log(menu);
+  
+  let clone = structuredClone(user);
+  
+ 
+  
+  // user and clone are totally unrelated now
+  user.sizes.width = 60;    // change a property from one place
+  console.log(clone.sizes.width); // 50, not related
