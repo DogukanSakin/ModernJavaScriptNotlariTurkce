@@ -2,7 +2,7 @@
 
 Bazen elimizdeki değişkenin türünü işlem yapabilmemiz için değiştirmek gerekebilir. Böyle bir durumda tür dönüşümlerine ihtiyaç duyarız.
 
-### String Dönüşümü
+## String Dönüşümü
 
 String() fonksiyonu ile değişkenin değeri string türüne dönüştürülebilir.
 
@@ -48,7 +48,7 @@ Number(null) -> 0
 Number(true) -> 1
 Number(false) -> 0
 
-### Boolean Dönüşümü
+## Boolean Dönüşümü
 
 Boolean() fonksiyonu ile değişkenin değeri boolean türüne dönüştürülebilir.
 
