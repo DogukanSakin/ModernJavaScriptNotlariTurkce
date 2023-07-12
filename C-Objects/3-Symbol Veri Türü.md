@@ -18,6 +18,22 @@ obj[mySymbol] = "Bu Symbol ile ilişkilendirilen bir değer";
 console.log(obj[mySymbol]); // Bu Symbol ile ilişkilendirilen bir değer
 ```
 
+Symbol'ler bir objenin içerisinde iterasyon esnasında görünmezler. Bu, Symbol'lerin özelliklerin çakışmasını önlemek için kullanıldığı anlamına gelir.
+
+```js
+let id = Symbol("id");
+let user = {
+  name: "John",
+  age: 30,
+  [id]: 123
+};
+
+for (let key in user) alert(key); // name, age (no symbols)
+
+// the direct access by the symbol works
+alert( "Direct: " + user[id] ); // Direct: 123
+```
+
 Symbol'ler, Object.getOwnPropertySymbols() veya Reflect.ownKeys() gibi özel yöntemler kullanılarak nesnelerdeki Symbol özelliklerini elde etmek için kullanılabilir.
 
 Symbol'ler, JavaScript dilinde bazı yerleşik sembol değerlerine de sahiptir. Örneğin, Symbol.iterator, Symbol.match, Symbol.species gibi semboller, belirli işlemleri gerçekleştirmek üzere kullanılır ve özellikle veri yapılarının davranışlarını tanımlamak için önemlidir.
