@@ -114,6 +114,21 @@ for (let code in codes) {
 
 + Kullanmamızın sebebi JavaScript'in objeleri sıralarken stringleri sayılara çevirmesidir.
 
+## Object ve this
+
+Object içerisindeki bir method içerisinde this kullanarak objenin içerisindeki diğer değerlere erişebiliriz:
+
+```js
+let user = {
+    name: "John",
+    age: 30,
+    sayHi() {
+        alert(this.name);
+    }
+};
+
+user.sayHi(); // John
+```
 
 
 
