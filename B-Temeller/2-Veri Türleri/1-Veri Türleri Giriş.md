@@ -1,6 +1,6 @@
 ## Değişkenlerde Veri Türleri
 
-Bu başlık altında basitçe JavaScript'in hangi veri türlerine sahip olduğunu inceleyelim. Temel olarak 8 adet veri türü vardır. Bunlar:
+Bu başlık altında basitçe JavaScript'in hangi veri türlerine sahip olduğunu inceleyelim. Bu türlerin ayrıntılı bilgisini D bölümünde bulabilirsiniz. Temel olarak 8 adet veri türü vardır. Bunlar:
 
 - **String**: Metinsel ifadeleri temsil eder. Örneğin: "Merhaba Dünya", "JavaScript", "123" gibi.
 - **Number**: Sayısal ifadeleri temsil eder. Örneğin: 123, 3.14, 0.5 gibi. Bazı dillerde pek çok number türü vardır. Ancak JavaScript'te sadece bir tane number türü vardır: 64 bitlik bir float türü.
