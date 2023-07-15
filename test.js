@@ -1,9 +1,12 @@
-function filterRange(arr,a,b){
-    return arr.filter((item)=> item>= a && item<=b);
+function unique(arr){
+    return Array.from(new Set(arr));
 }
 
-console.log(filterRange([5, 3, 8, 1],1,4));
+let values = ["Hare", "Krishna", "Hare", "Krishna",
+  "Krishna", "Krishna", "Hare", "Hare", ":-O"
+];
 
+console.log(unique(values));
 
 
 
