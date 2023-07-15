@@ -118,4 +118,37 @@ for (let i = 0; i < arr1.length; i++) {
     break;
   }
 }
+```
+## Destrukturizasyon
+
+Destructuring, bir nesnenin veya array'in öğelerini ayırma işlemidir.
+
+```js
+const arr = ["a", "b", "c"];
+const [x, y, z] = arr;
+console.log(x); // a
+console.log(y); // b
+console.log(z); // c
+```
+
+Burada istenmeyen öğeleri atlayabiliriz:
+
+```js
+const arr = ["a", "b", "c"];
+const [x, , z] = arr;
+console.log(x); // a
+console.log(z); // c
+```
+
+Default değerler de verebiliriz:
+
+```js
+const arr = ["a", "b"];
+const [x, y, z = "c"] = arr;
+console.log(x); // a
+console.log(y); // b
+console.log(z); // c
+```
+
+
 
