@@ -1,20 +1,8 @@
-function getMaxSubSum(arr){
-    const isAllItemsEqualsZero = arr.every((item)=>item<0);
-    if(isAllItemsEqualsZero) return 0;
-
-    let currentSum = 0, maxSum = 0;
-
-    for(const value of arr){
-        currentSum += value;
-        maxSum = Math.max(currentSum,maxSum);
-    }
-
-    return maxSum;
-
-
+function filterRange(arr,a,b){
+    return arr.filter((item)=> item>= a && item<=b);
 }
 
-console.log(getMaxSubSum([100, -9, 2, -3, 5]));
+console.log(filterRange([5, 3, 8, 1],1,4));
 
 
 

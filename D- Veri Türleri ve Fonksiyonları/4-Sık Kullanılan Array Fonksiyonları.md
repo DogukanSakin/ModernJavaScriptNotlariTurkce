@@ -142,6 +142,16 @@ function myFunc(total, num) {
 }
 ```
 
+## reduceRight() Metodu
+
+reduceRight() metodu, bir dizideki öğeler için bir test işlevi çağırır ve true olan öğeleri yeni bir diziye yerleştirir.
+
+```js
+const numbers = [175, 50, 25];
+console.log(numbers.reduceRight(myFunc)); // -50
+```
+
+
 ## reverse() Metodu
 
 reverse() metodu, bir dizinin öğelerini tersine çevirir.
@@ -232,4 +242,11 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.fill("Kiwi", 2, 4)); // ["Banana", "Orange", "Kiwi", "Kiwi"]
 ```
 
+## split() Metodu
 
+split() metodu, bir dizinin öğelerini bir başka bir diziye dönüştürür. Bunu özellikle stringlerde kullanabilirsiniz.
+
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.split(",")); // ["Banana", "Orange", "Apple", "Mango"]
+```
