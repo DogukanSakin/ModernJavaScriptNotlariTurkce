@@ -1,11 +1,17 @@
-function getDateAgo (date,days){
-    return  date.getDate()-days;
+function printNumbers(from,to){
+    const timer = setInterval(()=>{
+        console.log(from);
+        from -= 1;
+        if(from < to){
+             clearInterval(timer)
+        }
+    },1000);
+
+   
+
 }
 
-let date = new Date(2015, 0, 2);
-
-console.log(getDateAgo(date,1));
-
+printNumbers(5,1);
 
 
 
