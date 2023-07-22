@@ -56,6 +56,23 @@ Proto günümüzde sık kullanılmaz. Bunun yerine Object.getPrototypeOf/Object.
 
 Prototype yalnızca reading aksiyonları içindir. Writing aksiyonları için kullanılamaz. 
 
+## prototype keyword
+
+JavaScript'te her nesne, bir "prototype" adında bir özelliğe sahiptir. Bu "prototype" özelliği, bir nesnenin sahip olduğu özellik ve metodların, miras aldığı üst nesne olan prototip nesnesini referans eder. Eğer bir nesnede aradığımız bir özellik veya metot yoksa, JavaScript otomatik olarak prototip zincirini takip ederek üst prototip nesnelerine bakar ve aranan öğeyi bulmaya çalışır.
+
+```js
+function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+}
+
+Person.prototype.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+```
+
 
 
 
