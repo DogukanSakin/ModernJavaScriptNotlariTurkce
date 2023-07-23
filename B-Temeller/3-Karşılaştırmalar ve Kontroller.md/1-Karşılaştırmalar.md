@@ -17,3 +17,16 @@ alert( '01' == 1 ); // true
 alert( true == 1 ); // true
 alert( false == 0 ); // true
 ```
+
+## Object.is()
+
+`Object.is(a, b)` yöntemi, `===` ile aynı şekilde çalışır, ancak iki özel durumda farklı davranır:
+
+- `NaN` ile `NaN`'yi karşılaştırırken `true` döndürür.
+
+- `0` ile `-0`'yı karşılaştırırken `false` döndürür.
+
+```js
+alert( Object.is(NaN, NaN) ); // true
+alert( Object.is(0, -0) ); // false
+```

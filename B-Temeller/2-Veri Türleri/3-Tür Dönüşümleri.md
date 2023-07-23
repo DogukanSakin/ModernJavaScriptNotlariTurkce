@@ -65,4 +65,26 @@ alert( Boolean(" ") ); // true çünkü boşlukta sayılır.
 alert( Boolean("") );  // false, uzunluğu 0
 ```
 
+## parseInt ve parseFloat
+
+parseInt ve parseFloat fonksiyonları string değerleri number değerlerine dönüştürür.
+
+```js
+alert( parseInt('100px') ); // 100
+alert( parseFloat('12.5em') ); // 12.5
+```
+
+
+## toString
+toString fonksiyonu ile number değerleri string değerlerine dönüştürülebilir.
+
+```js
+let num = 123;
+alert( num.toString() ); // "123"
+
+alert( 123456..toString() ); // "123456", 123456.. şeklinde yazılmalıdır.
+```
+
+
+
 
