@@ -1,12 +1,10 @@
-function outerFunction() {
-    const outerVariable = 'Bu bir dış değişkendir';
-  
-    function innerFunction() {
-      const innerVariable = 'Bu bir iç değişkendir';
-
+const obj = {
+    name:'hello',
+    myf: function() {
+        console.log(this.name);
     }
-    console.log(innerVariable);
-    innerFunction();
-  }
-  
-  outerFunction();
+}
+
+const objRef = obj;
+
+objRef(); // hello
