@@ -2,6 +2,13 @@
 
 this anahtar kelimesi, bir işlevin çalıştığı bağlamı temsil eder. İşlevin nasıl çağrıldığına ve nerede tanımlandığına bağlı olarak this farklı değerlere sahip olabilir. 
 
+Özetle this:
+
+- Tek başına kullanıldığında, this global bağlamı temsil eder.
+- Bir fonksiyonun içinde kullanıldığında, this global object'i temsil eder.
+- Bir event handler içinde kullanıldığında, this event'i tetikleyen element'i temsil eder.
+- call(), apply() veya bind() yöntemleri ile kullanıldığında, this belirtilen bağlamı temsil eder.
+
 ## Global
 
 ```js
