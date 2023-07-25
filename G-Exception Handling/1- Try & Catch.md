@@ -36,3 +36,5 @@ try {
   console.log("İşlem tamamlandı.");
 }
 ```
+
+Try-catch yapısı, programların daha güvenli ve hataya dayanıklı olmasını sağlar. Ancak, her zaman hata yakalama bloklarını kullanmak yerine hataların oluşma olasılığını en aza indirmeye özen göstermek daha iyi bir uygulama geliştirmeye yardımcı olur. Çok fazla try-catch kullanmak, kodun okunabilirliğini azaltabilir ve performansı olumsuz etkileyebilir. 
