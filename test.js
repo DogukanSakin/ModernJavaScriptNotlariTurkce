@@ -1,10 +1,13 @@
-function delay(ms) {
-  return new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-      resolve();
-    },ms);
-    
-  })
-}
+ 
+ async function test(){
+  const result = await fetch('http://facebook.com').then((res)=>{
+    return res.json();
+}).catch((err)=>{
+  console.log(err);
+});
 
-delay(3000).then(() => console.log('runs after 3 seconds'));
+console.log(result);
+ }
+
+ test();
+
