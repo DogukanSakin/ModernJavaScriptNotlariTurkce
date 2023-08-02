@@ -6,7 +6,7 @@
 
 Selamlar. Elimin altında her zaman JavaScript için geriye dönüp bakabileceğim bir kaynak oluşturmak istemiştim. Dolayısıyla bu iş için kolları sıvadım ve böyle bir kaynak oluşturdum. Umarım sizler için de faydalı olur. Ancak şu konuda uyarılarda bulunmak isterim:
 
-- Bu kaynak tek bir kaynağın Türkçeye çevirisi değildir. İçeride çeşitli kaynaklardan araştırmalarım bulunmaktadır.
+- Bu kaynak tek bir kaynağın Türkçeye çevirisi değildir. İçeride çeşitli kaynaklardan araştırdığım bilgilerin toplamıyla birlikte denk geldiğim makalelerden okuyup anlayarak cümlelere döktüğüm kısımlar yer almaktadır.
 
 - Notlar JavaScript'in genel konseptine ek olarak kendim için aldığım bazı spesifik başlıkları da içermektedir. (Örneğin clean code kavramları gibi)
 
