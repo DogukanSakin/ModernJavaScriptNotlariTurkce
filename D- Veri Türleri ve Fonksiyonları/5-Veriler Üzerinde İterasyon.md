@@ -1,4 +1,4 @@
-## Veriler Üzerinde İterasyon
+## Veriler Üzerinde İterasyon
 
 JavaScript'te veriler üzerinde iterasyon yaparken genellikle döngüler (loops) veya for...of döngüsü gibi yapılarla kullanılır. Bir döngü kullanarak Iterable nesnenin her bir elemanına erişebilir ve üzerinde işlemler gerçekleştirebilirsiniz.
 
