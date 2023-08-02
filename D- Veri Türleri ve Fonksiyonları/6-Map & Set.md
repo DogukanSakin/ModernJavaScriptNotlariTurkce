@@ -1,4 +1,4 @@
-## Map
+## Map
 
 Map: Key-Value çiftlerini tutan bir veri yapısıdır. Key-Value çiftleri, birbirinden farklı key'ler ile temsil edilir. Key'ler, Map içerisinde benzersiz olmalıdır. Bir key, Map içerisinde sadece bir kez bulunabilir. Bir key, Map içerisinde bulunmuyorsa, Map içerisindeki bir değere erişmeye çalıştığımızda `undefined` değeri döner.
 
