@@ -1,7 +1,6 @@
 <div align='center'>
-<img src='https://github.com/DogukanSakin/ModernJavaScriptNotlariTurkce/assets/86911611/bb5e95d0-65cc-41dc-8346-6637baa52b8b' height='200' width='200'>
+<img src='https://github.com/DogukanSakin/ModernJavaScriptNotlariTurkce/assets/86911611/754470e3-bfad-48ff-a760-6996a40f512d' height='200' width='200'>
 </div>
-
 
 # JavaScript Notlarıma Hoşgeldiniz! 👾
 
