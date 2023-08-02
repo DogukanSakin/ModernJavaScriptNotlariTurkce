@@ -40,6 +40,60 @@ console.log(iterator.next()); // { value: 'Generatorler harika!', done: false }
 console.log(iterator.next()); // { value: undefined, done: true }
 ```
 
+Generatorler iterable'dır:
+
+```js
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  return 3;
+}
+
+let generator = generateSequence();
+
+for(let value of generator) {
+  alert(value); // 1, then 2
+}
+```
+
+Burada 3'ü görmememizin sebebi, for..of döngüsünün sadece done: false olan değerleri almasıdır. return ifadesi, done: true olan bir değer döndürür. Düzeltmek için:
+
+```js
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+```
+`yield*` kullanarak başka bir generator çağırabiliriz:
+
+```js
+function* generateSequence(start, end) {
+  for (let i = start; i <= end; i++) yield i;
+}
+
+function* generatePasswordCodes() {
+
+  // 0..9
+  yield* generateSequence(48, 57);
+
+  // A..Z
+  yield* generateSequence(65, 90);
+
+  // a..z
+  yield* generateSequence(97, 122);
+
+}
+
+let str = '';
+
+for(let code of generatePasswordCodes()) {
+  str += String.fromCharCode(code);
+}
+
+alert(str); // 0..9A..Za..z
+```
+
 Generatorlerin en güzel yanlarından biri, bellekte büyük veri kümesi veya döngü işlemleri gibi büyük miktarda veriyle çalışırken performansı artırabilmesidir. Çünkü değerleri talep ettiğinizde, ihtiyacınız olan değerleri üretirler, böylece gereksiz bellek kullanımını önlemiş olursunuz.
 
 Generatorler ve iteratorler, JavaScript'te veri işleme ve asenkron programlamada çok kullanışlı ve güçlü bir araç setidir. Bu özellikleri kullanarak daha temiz ve daha düzenli kodlar yazabilir ve performansı artırabilirsiniz.
