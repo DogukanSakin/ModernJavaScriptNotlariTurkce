@@ -1,4 +1,4 @@
-# Fonksiyon Declartion-Expression Farkı
+## Fonksiyon Declartion-Expression Farkı
 
 JavaScript'te "Function Declaration" ve "Function Expression" olmak üzere iki farklı fonksiyon tanımlama yöntemi vardır. Bu iki yöntem arasındaki farklar aşağıdaki gibi özetlenebilir:
 
