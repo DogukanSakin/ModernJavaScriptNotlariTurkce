@@ -6,7 +6,7 @@ Anlamlı İsimlendirme: Fonksiyonlara açıklayıcı ve anlamlı isimler vermek 
 
 Kötü: 
 
-```
+```js
 function f(){
 
 }
