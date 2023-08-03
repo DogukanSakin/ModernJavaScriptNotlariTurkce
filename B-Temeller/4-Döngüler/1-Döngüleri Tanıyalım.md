@@ -12,7 +12,7 @@ while (i < 3) { // shows 0, then 1, then 2
 
 Burada herhangi bir koşul olmazsa sonsuz döngü oluşacaktır. 
 
-## For Loop
+## For Loop
 
 Benzer şekilde for döngüsü de belirli bir koşul sağlandığı sürece döngüyü çalıştırmaya devam eder. Başlangıç, ilerleyiş miktarı ve bitiş koşullarını tanımlama esnasında belirleyebiliriz.
 
