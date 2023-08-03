@@ -6,7 +6,7 @@ JavaScript başlangıçta web sayfalarını "canlı" hale getirmek için oluştu
 
 JavaScript'in başlangıçta isminin LiveScript olması düşünülüyormuş. Ancak çıkış yıllarında (4 Aralık 1995 (27 yıl önce)) Java oldukça popüler bir dil olduğu için Java'nın küçük kardeşi olarak konumlandırabilmek adına isminin başına Live yerine Java eklenmiş. Bu da böyle bir bilgi her zaman teknik konuşacağız diye bir şey yok. Genel kültürde lazım.
 
-<img src="https://github.com/DogukanSakin/ModernJavaScriptNotlariTurkce/assets/86911611/301a18cb-fadc-4eaf-bc44-49ea4a8c9ab6" width="200" height="200"></img>
+<img src="https://github.com/DogukanSakin/ModernJavaScriptNotlariTurkce/assets/86911611/754470e3-bfad-48ff-a760-6996a40f512d" width="200" height="200"></img>
 
 ## Geliştirme Ortamının Önemi
 
