@@ -2,7 +2,7 @@
 JavaScript'te call ve apply gibi fonksiyonlar, işlevleri çağırmak ve bu işlevleri belirli bir bağlam veya argümanlarla çağırmak için kullanılır. Her iki fonksiyon da işlevlerin çalışma zamanında nasıl çağrılacağı ve çalıştırılacağı konusunda daha fazla esneklik sağlar.
 
 
-## Call
+##  Call
 
 call() yöntemi, belirli bir işlevi belirli bir bağlam (this değeri) ile çağırmak için kullanılır. Genellikle fonksiyonlar nesnelere bağlı olduğunda, o nesne üzerinde bir işlevi çağırmak istediğimizde kullanılır. call() fonksiyonu, işlevin çalışma zamanında this değerini belirlememize olanak tanır. 
 
@@ -32,7 +32,7 @@ function saySomething(greeting) {
 saySomething.call(anotherPerson, 'Hi'); // Output: Hi, my name is Alice.
 ```
 
-## Apply
+##  Apply
 
 apply() yöntemi, call() ile benzerdir, ancak argümanları bir dizi olarak kabul eder. apply() genellikle, işlevin argümanlarını bir dizi içinde almak veya işlevin parametre listesine uygun olmayan bir dizi argümanı olan işlevleri çağırmak için kullanılır. Örnek kullanım:
 
