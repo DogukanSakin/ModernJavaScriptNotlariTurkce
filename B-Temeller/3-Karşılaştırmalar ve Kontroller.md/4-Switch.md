@@ -1,4 +1,4 @@
-## Switch
+## Switch
 
 Switch, bir değişkenin değerine göre farklı işlemler yapabilir. Bu yönüyle if kontrolüne benzer.
 
