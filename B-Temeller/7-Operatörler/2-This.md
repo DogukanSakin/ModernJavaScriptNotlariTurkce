@@ -1,4 +1,4 @@
-## This
+##  This
 
 this anahtar kelimesi, bir işlevin çalıştığı bağlamı temsil eder. İşlevin nasıl çağrıldığına ve nerede tanımlandığına bağlı olarak this farklı değerlere sahip olabilir. 
 
