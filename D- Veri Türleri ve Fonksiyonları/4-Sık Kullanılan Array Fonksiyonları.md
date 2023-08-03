@@ -129,7 +129,7 @@ const fruits = ["Apple", "Orange", "Apple", "Mango"];
 console.log(fruits.indexOf("Apple")); // 0
 ```
 
-## reduce() Metodu
+##  reduce() Metodu
 
 reduce() metodu, bir dizideki öğeler için bir test işlevi çağırır ve true olan öğeleri yeni bir diziye yerleştirir.
 
@@ -161,7 +161,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.reverse()); // ["Mango", "Apple", "Orange", "Banana"]
 ```
 
-## sort() Metodu
+## sort() Metodu
 
 sort() metodu, bir dizinin öğelerini sıralar.
 
@@ -170,7 +170,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.sort()); // ["Apple", "Banana", "Mango", "Orange"]
 ```
 
-## toString() Metodu
+## toString() Metodu
 
 toString() metodu, bir dizinin öğelerini bir dizeye dönüştürür.
 
